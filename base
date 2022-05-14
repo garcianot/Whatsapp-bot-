@@ -1,0 +1,13 @@
+import pyautogui
+import webbrowser as web
+from time import sleep
+
+
+web.open('https://web.whatsapp.com/send?phone=+***********+?text=')
+sleep(15)
+pyautogui.click(x=774, y=810)
+sleep(10)
+with open('garcia.txt', 'r') as file:
+    for line in file:
+        pyautogui.typewrite(line)
+        pyautogui.press('enter')
