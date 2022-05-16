@@ -3,7 +3,7 @@ import webbrowser as web
 from time import sleep
 import random
 
-numero_ramdon=['50242133557','50242734863']
+numero_ramdon=['***********','***********']
 link1='https://web.whatsapp.com/send?phone=+'
 link2='+?text='
 n=(random.choice(numero_ramdon))
@@ -13,7 +13,7 @@ web.open(numero)
 sleep(15)
 pyautogui.click(x=774, y=810)
 sleep(3)
-with open('garc', 'r') as file:
+with open('*****', 'r') as file:
     for line in file:
         pyautogui.typewrite(line)
         pyautogui.press('enter')
