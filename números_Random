@@ -4,10 +4,9 @@ from time import sleep
 import random
 
 numero_ramdon=['***********','***********']
-link1='https://web.whatsapp.com/send?phone=+'
-link2='+?text='
+link='https://web.whatsapp.com/send?phone=++?text='
 n=(random.choice(numero_ramdon))
-numero = link1 + link2 + n
+numero = link + n
 
 web.open(numero)
 sleep(15)
